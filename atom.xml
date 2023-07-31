@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://yoursite.com/child</id>
-    <title>Aki&#39;s Memory</title>
+    <title>Polaris</title>
     <subtitle>Aki的日记本</subtitle>
     <icon>http://yoursite.com/child/images/favicon.ico</icon>
     <link href="http://yoursite.com/child" />
@@ -20,6 +20,14 @@
 &lt;/div&gt;
 &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
 &lt;p&gt;其实一开始我是打算自己写一个的&lt;/p&gt;
+&lt;h1 id=&#34;todo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#todo&#34;&gt;#&lt;/a&gt; TODO&lt;/h1&gt;
+&lt;p&gt;[√] 优化今日诗词请求，改为只在首页时请求&lt;/p&gt;
+&lt;p&gt;[√] 添加天气&lt;/p&gt;
+&lt;p&gt;[ ] 测试 Vercel 被墙的情况，看情况自行搭建服务器&lt;/p&gt;
+&lt;p&gt;[ ] 添加留言板块，计划使用 Vercel 不行用自己的服务器&lt;/p&gt;
+&lt;p&gt;[ ] 测试音乐模块，看情况部署一个网易云 api 后端&lt;/p&gt;
+&lt;p&gt;[ ] 继续修改博客&lt;/p&gt;
+&lt;p&gt;[ ] 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="http://yoursite.com/child/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/" />
         <category term="二进制杂谈" scheme="http://yoursite.com/child/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9D%82%E8%B0%88/" />

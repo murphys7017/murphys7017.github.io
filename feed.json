@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Aki's Memory",
+    "title": "Polaris",
     "subtitle": "Aki的日记本",
     "icon": "http://yoursite.com/child/images/favicon.ico",
     "description": "这里是Aki的个人日记本",
@@ -11,7 +11,7 @@
             "url": "http://yoursite.com/child/Aki-Blog-Info/",
             "title": "个人博客搭建日志",
             "date_published": "2023-07-28T12:45:48.000Z",
-            "content_html": "<div class=\"note info\">\n<p>这只是一个对 shoka 主题的拙略的修改</p>\n</div>\n<h1 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 前言</h1>\n<p>其实一开始我是打算自己写一个的</p>\n",
+            "content_html": "<div class=\"note info\">\n<p>这只是一个对 shoka 主题的拙略的修改</p>\n</div>\n<h1 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 前言</h1>\n<p>其实一开始我是打算自己写一个的</p>\n<h1 id=\"todo\"><a class=\"anchor\" href=\"#todo\">#</a> TODO</h1>\n<p>[√] 优化今日诗词请求，改为只在首页时请求</p>\n<p>[√] 添加天气</p>\n<p>[ ] 测试 Vercel 被墙的情况，看情况自行搭建服务器</p>\n<p>[ ] 添加留言板块，计划使用 Vercel 不行用自己的服务器</p>\n<p>[ ] 测试音乐模块，看情况部署一个网易云 api 后端</p>\n<p>[ ] 继续修改博客</p>\n<p>[ ] 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了</p>\n",
             "tags": [
                 "计算机科学",
                 "二进制杂谈",
