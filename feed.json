@@ -25,11 +25,22 @@
             "url": "http://yoursite.com/child/Aki-Blog-Info/",
             "title": "个人博客搭建日志",
             "date_published": "2023-07-28T12:45:00.000Z",
-            "content_html": "<div class=\"note info\">\n<p>这只是一个对 shoka 主题的拙略的修改</p>\n</div>\n<p>其实一开始我是打算自己写一个的，已经完成了前端页面 (并没有)，和后台文件管理了，结果死在部署这一步了。</p>\n<p>忽然发现云服务器到期了，买的域名还有不到一个月到期，用 Termux 感觉有点慢，遂决定用 hexo 改一个，还省的自己写前端，原本打算用我自己的后台的，但是发现用内网穿透虽然是便宜很多，但是还是慢，所以就放到了 Github 和 Vercel 上。</p>\n<p>接下来将逐渐添加一些我想到的功能，同时在工作的时候写一些博客的内容。</p>\n<h1 id=\"todo\"><a class=\"anchor\" href=\"#todo\">#</a> TODO</h1>\n<ul class=\"task-list\">\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_0\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_0\"> 优化今日诗词请求，改为只在首页时请求</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_1\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_1\"> 添加天气</label></p>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_2\" disabled=\"true\" /><label for=\"cbx_2\"> 天气好像没居中，样式好像不好看</label></li>\n</ul>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_3\" disabled=\"true\" /><label for=\"cbx_3\"> 测试 Vercel 被墙的情况，看情况自行搭建服务器</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_4\" disabled=\"true\" /><label for=\"cbx_4\"> 添加留言板块，计划使用 Vercel 不行用自己的服务器</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_5\" disabled=\"true\" /><label for=\"cbx_5\"> 测试音乐模块，看情况部署一个网易云 api 后端</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_6\" disabled=\"true\" /><label for=\"cbx_6\"> 继续修改博客</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_7\" disabled=\"true\" /><label for=\"cbx_7\"> 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了</label></p>\n</li>\n</ul>\n",
+            "content_html": "<div class=\"note info\">\n<p>这只是一个对 shoka 主题的拙略的修改</p>\n</div>\n<p>其实一开始我是打算自己写一个的，已经完成了前端页面 (并没有)，和后台文件管理了，结果死在部署这一步了。</p>\n<p>忽然发现云服务器到期了，买的域名还有不到一个月到期，用 Termux 感觉有点慢，遂决定用 hexo 改一个，还省的自己写前端，原本打算用我自己的后台的，但是发现用内网穿透虽然是便宜很多，但是还是慢，所以就放到了 Github 和 Vercel 上。</p>\n<p>接下来将逐渐添加一些我想到的功能，同时在工作的时候写一些博客的内容。</p>\n<h1 id=\"todo\"><a class=\"anchor\" href=\"#todo\">#</a> TODO</h1>\n<ul class=\"task-list\">\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_0\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_0\"> 优化今日诗词请求，改为只在首页时请求</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_1\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_1\"> 添加天气</label></p>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_2\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_2\"> 天气好像没居中，样式好像不好看</label></li>\n</ul>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_3\" disabled=\"true\" /><label for=\"cbx_3\"> 测试 Vercel 被墙的情况，看情况自行搭建服务器</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_4\" disabled=\"true\" /><label for=\"cbx_4\"> 添加留言板块，计划使用 Vercel 不行用自己的服务器</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_5\" disabled=\"true\" /><label for=\"cbx_5\"> 测试音乐模块，看情况部署一个网易云 api 后端</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_6\" disabled=\"true\" /><label for=\"cbx_6\"> 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_7\" disabled=\"true\" /><label for=\"cbx_7\"> 背景图加个粒子效果或者整个网格装饰一下，太大了有点不好看</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_8\" disabled=\"true\" /><label for=\"cbx_8\"> 背景图和主体之间有一小点空隙</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" id=\"cbx_9\" disabled=\"true\" /><label for=\"cbx_9\"> 将随机文章改为系统推荐文章和个人推荐文章</label></p>\n</li>\n</ul>\n",
             "tags": [
                 "开发日记",
                 "Theme Shoka Documentation",
                 "Hexo",
+                "note"
+            ]
+        },
+        {
+            "id": "http://yoursite.com/child/ScreepWord/%E6%B8%B8%E6%88%8F%E7%AC%AC%E4%B8%80%E5%A4%A9/",
+            "url": "http://yoursite.com/child/ScreepWord/%E6%B8%B8%E6%88%8F%E7%AC%AC%E4%B8%80%E5%A4%A9/",
+            "title": "ScreepWord第一天",
+            "date_published": "2023-07-28T12:45:00.000Z",
+            "content_html": "<div class=\"note info\">\n<p>目前是在一边看文档一边摸索，目前计划是，管他文档呢，写到哪里学到哪里。</p>\n</div>\n",
+            "tags": [
+                "ScreepWord",
                 "note"
             ]
         },

@@ -165,7 +165,7 @@
 &lt;li class=&#34;task-list-item&#34;&gt;
 &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 添加天气&lt;/label&gt;&lt;/p&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; 天气好像没居中，样式好像不好看&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; 天气好像没居中，样式好像不好看&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
@@ -178,12 +178,30 @@
 &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; 测试音乐模块，看情况部署一个网易云 api 后端&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 继续修改博客&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 背景图加个粒子效果或者整个网格装饰一下，太大了有点不好看&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; 背景图和主体之间有一小点空隙&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; 将随机文章改为系统推荐文章和个人推荐文章&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/child/ScreepWord/%E6%B8%B8%E6%88%8F%E7%AC%AC%E4%B8%80%E5%A4%A9/</guid>
+            <title>ScreepWord第一天</title>
+            <link>http://yoursite.com/child/ScreepWord/%E6%B8%B8%E6%88%8F%E7%AC%AC%E4%B8%80%E5%A4%A9/</link>
+            <category term="ScreepWord" scheme="http://yoursite.com/child/categories/ScreepWord/" />
+            <category term="note" scheme="http://yoursite.com/child/tags/note/" />
+            <pubDate>Fri, 28 Jul 2023 20:45:00 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;目前是在一边看文档一边摸索，目前计划是，管他文档呢，写到哪里学到哪里。&lt;/p&gt;
+&lt;/div&gt;
  ]]></description>
         </item>
         <item>
