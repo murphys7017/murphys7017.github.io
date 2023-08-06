@@ -146,9 +146,50 @@
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;这只是一个对 shoka 主题的拙略的修改&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;这里的分析是基于 shoka 主题进行了，对于其他的主题可能有一些问题，我也是第一次搞。&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;其实一开始我是打算自己写一个的，已经完成了前端页面 (并没有)，和后台文件管理了，结果死在部署这一步了。&lt;/p&gt;
 &lt;p&gt;忽然发现云服务器到期了，买的域名还有不到一个月到期，用 Termux 感觉有点慢，遂决定用 hexo 改一个，还省的自己写前端，原本打算用我自己的后台的，但是发现用内网穿透虽然是便宜很多，但是还是慢，所以就放到了 Github 和 Vercel 上。&lt;/p&gt;
 &lt;p&gt;接下来将逐渐添加一些我想到的功能，同时在工作的时候写一些博客的内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主题的目录结构：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;shoka
+    ├─languages
+    ├─layout
+    │  ├─_alternate
+    │  ├─_macro
+    │  └─_partials
+    │      ├─head
+    │      ├─post
+    │      ├─sidebar
+    │      └─third-party
+    ├─scripts
+    │  ├─filters
+    │  ├─generaters
+    │  ├─helpers
+    │  ├─renderer
+    │  └─tags
+    └─source
+        ├─css
+        │  └─_common
+        │      ├─components
+        │      │  ├─highlight
+        │      │  ├─pages
+        │      │  ├─post
+        │      │  ├─tags
+        │      │  └─third-party
+        │      │      └─mermaid
+        │      ├─outline
+        │      │  ├─footer
+        │      │  ├─header
+        │      │  └─sidebar
+        │      └─scaffolding
+        ├─images
+        └─js
+            └─_app
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;hexo 启动时候的工作流程应该是，先读取并执行 scripts 中的所有脚本，然后读取 layout 中的模板，之后进行渲染，其中 &lt;code&gt;layout&lt;/code&gt;  的入口应该是 &lt;code&gt;index.njk&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Layout&lt;/code&gt;  文件夹中 &lt;code&gt;_partials&lt;/code&gt;  中文件的作用是将整个博客分割成了一个个小部分，方便复用。 &lt;code&gt;layout.njk&lt;/code&gt;  是整体布局， &lt;code&gt;archive.njk&lt;/code&gt;  到  &lt;code&gt;tag.njk&lt;/code&gt;  这几个文件都是重写了 &lt;code&gt;layout.njk&lt;/code&gt;  的 &lt;code&gt;block content&lt;/code&gt;  这个区块。&lt;/p&gt;
 &lt;h1 id=&#34;todo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#todo&#34;&gt;#&lt;/a&gt; TODO&lt;/h1&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
@@ -164,27 +205,29 @@
 &lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_3&#34;&gt; 测试 Vercel 被墙的情况，看情况自行搭建服务器&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; 添加留言板块，计划使用 Vercel 不行用自己的服务器&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; 开始尝试自行写一个评论组件&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; 测试音乐模块，看情况部署一个网易云 api 后端&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; 添加留言板块，计划使用 Vercel 不行用自己的服务器&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 测试音乐模块，看情况部署一个网易云 api 后端&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 背景图加个粒子效果或者整个网格装饰一下，太大了有点不好看&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 看到一个人搞了一个订阅功能，开始思考这个做出来有没有用了&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; 背景图和主体之间有一小点空隙&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; 背景图加个粒子效果或者整个网格装饰一下，太大了有点不好看&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; 将随机文章改为系统推荐文章和个人推荐文章&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; 背景图和主体之间有一小点空隙&lt;/label&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;
+&lt;p&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_10&#34;&gt; 将随机文章改为系统推荐文章和个人推荐文章&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
         <category term="开发日记" scheme="http://yoursite.com/child/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/" />
-        <category term="Theme Shoka Documentation" scheme="http://yoursite.com/child/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/Theme-Shoka-Documentation/" />
         <category term="Hexo" scheme="http://yoursite.com/child/tags/Hexo/" />
         <category term="note" scheme="http://yoursite.com/child/tags/note/" />
         <updated>2023-07-28T12:45:00.000Z</updated>
