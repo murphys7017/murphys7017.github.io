@@ -3,8 +3,8 @@
     <channel>
         <title>Polaris</title>
         <subtitle>Aki的日记本</subtitle>
-        <icon>http://yoursite.com/child/images/favicon.ico</icon>
-        <link>http://yoursite.com/child</link>
+        <icon>http://blog.murphyspolaris.icu/images/favicon.ico</icon>
+        <link>http://blog.murphyspolaris.icu</link>
         <author>
           <name>Aki Polaris</name>
         </author>
@@ -15,29 +15,11 @@
         <category term="博客" />
         <category term="日记" />
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE/</guid>
-            <title>博客服务器端配置</title>
-            <link>http://yoursite.com/child/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE/</link>
-            <category term="note" scheme="http://yoursite.com/child/categories/note/" />
-            <category term="杂谈,笔记" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-%E7%AC%94%E8%AE%B0/" />
-            <pubDate>Sun, 27 Aug 2023 23:43:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;手机安装termux模拟linux环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#手机安装termux模拟linux环境&#34;&gt;#&lt;/a&gt; 手机安装 Termux 模拟 Linux 环境&lt;/h2&gt;
-&lt;p&gt;这里采用最简单的方法安装 F-Droid&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mLWRyb2lkLm9yZy9lbi9wYWNrYWdlcy9jb20udGVybXV4Lw==&#34;&gt;Termux | F-Droid - Free and Open Source Android App Repository&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;然后通过 F-Droid 安装 Termux，自动适配环境。&lt;/p&gt;
-&lt;h2 id=&#34;安装ssh&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装ssh&#34;&gt;#&lt;/a&gt; 安装 SSH&lt;/h2&gt;
-&lt;h2 id=&#34;配置所需环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置所需环境&#34;&gt;#&lt;/a&gt; 配置所需环境&lt;/h2&gt;
-&lt;p&gt;参考&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1lpQllpSC9hcnRpY2xlL2RldGFpbHMvMTI3Mjc1MTc5&#34;&gt;termux 安装配置_termux 配置_易冰亦寒的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNDcxNDIzL2FydGljbGUvZGV0YWlscy85MDU4Mjc5Mg==&#34;&gt;Termux 配置指南，你要的全都有_r0nny 的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://yoursite.com/child/%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E7%9A%84/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E7%9A%84/</guid>
             <title>一个常见的管理系统是由那些部分构成的</title>
-            <link>http://yoursite.com/child/%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E7%9A%84/</link>
-            <category term="工作记录" scheme="http://yoursite.com/child/categories/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95/" />
-            <category term="杂谈,工作" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-%E5%B7%A5%E4%BD%9C/" />
+            <link>http://blog.murphyspolaris.icu/%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E7%9A%84/</link>
+            <category term="工作记录" scheme="http://blog.murphyspolaris.icu/categories/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95/" />
+            <category term="杂谈,工作" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88-%E5%B7%A5%E4%BD%9C/" />
             <pubDate>Sun, 27 Aug 2023 23:43:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一个常见的管理系统是由那些部分构成的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一个常见的管理系统是由那些部分构成的&#34;&gt;#&lt;/a&gt; 一个常见的管理系统是由那些部分构成的&lt;/h1&gt;
 &lt;h2 id=&#34;数据库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据库&#34;&gt;#&lt;/a&gt; 数据库&lt;/h2&gt;
@@ -195,12 +177,30 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/%E6%B3%A8%E8%A7%A3/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE/</guid>
+            <title>博客服务器端配置</title>
+            <link>http://blog.murphyspolaris.icu/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE/</link>
+            <category term="note" scheme="http://blog.murphyspolaris.icu/categories/note/" />
+            <category term="杂谈,笔记" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88-%E7%AC%94%E8%AE%B0/" />
+            <pubDate>Sun, 27 Aug 2023 23:43:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;手机安装termux模拟linux环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#手机安装termux模拟linux环境&#34;&gt;#&lt;/a&gt; 手机安装 Termux 模拟 Linux 环境&lt;/h2&gt;
+&lt;p&gt;这里采用最简单的方法安装 F-Droid&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mLWRyb2lkLm9yZy9lbi9wYWNrYWdlcy9jb20udGVybXV4Lw==&#34;&gt;Termux | F-Droid - Free and Open Source Android App Repository&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;然后通过 F-Droid 安装 Termux，自动适配环境。&lt;/p&gt;
+&lt;h2 id=&#34;安装ssh&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装ssh&#34;&gt;#&lt;/a&gt; 安装 SSH&lt;/h2&gt;
+&lt;h2 id=&#34;配置所需环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置所需环境&#34;&gt;#&lt;/a&gt; 配置所需环境&lt;/h2&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1lpQllpSC9hcnRpY2xlL2RldGFpbHMvMTI3Mjc1MTc5&#34;&gt;termux 安装配置_termux 配置_易冰亦寒的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNDcxNDIzL2FydGljbGUvZGV0YWlscy85MDU4Mjc5Mg==&#34;&gt;Termux 配置指南，你要的全都有_r0nny 的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/%E6%B3%A8%E8%A7%A3/</guid>
             <title>Java注解</title>
-            <link>http://yoursite.com/child/before/%E6%B3%A8%E8%A7%A3/</link>
-            <category term="Java" scheme="http://yoursite.com/child/categories/Java/" />
-            <category term="Java基础" scheme="http://yoursite.com/child/tags/Java%E5%9F%BA%E7%A1%80/" />
-            <category term="面试笔记" scheme="http://yoursite.com/child/tags/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/" />
+            <link>http://blog.murphyspolaris.icu/before/%E6%B3%A8%E8%A7%A3/</link>
+            <category term="Java" scheme="http://blog.murphyspolaris.icu/categories/Java/" />
+            <category term="Java基础" scheme="http://blog.murphyspolaris.icu/tags/Java%E5%9F%BA%E7%A1%80/" />
+            <category term="面试笔记" scheme="http://blog.murphyspolaris.icu/tags/%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;什么是注解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是注解&#34;&gt;#&lt;/a&gt; 什么是注解&lt;/h2&gt;
 &lt;p&gt;代码中的特殊标记，这些标记可以在编译、类加载、运行时被读取，并执行相对应的处理。&lt;/p&gt;
@@ -342,11 +342,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/%E4%BA%BA%E7%B1%BB%E7%BE%A4%E6%98%9F%E9%97%AA%E8%80%80%E4%B9%8B%E6%97%B6/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/%E4%BA%BA%E7%B1%BB%E7%BE%A4%E6%98%9F%E9%97%AA%E8%80%80%E4%B9%8B%E6%97%B6/</guid>
             <title>类人群星闪耀之时 [合订本 不定期整理]</title>
-            <link>http://yoursite.com/child/before/%E4%BA%BA%E7%B1%BB%E7%BE%A4%E6%98%9F%E9%97%AA%E8%80%80%E4%B9%8B%E6%97%B6/</link>
-            <category term="杂谈" scheme="http://yoursite.com/child/categories/%E6%9D%82%E8%B0%88/" />
-            <category term="杂谈" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88/" />
+            <link>http://blog.murphyspolaris.icu/before/%E4%BA%BA%E7%B1%BB%E7%BE%A4%E6%98%9F%E9%97%AA%E8%80%80%E4%B9%8B%E6%97%B6/</link>
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/categories/%E6%9D%82%E8%B0%88/" />
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;⭐以下内容主要为各行业专家、教授【公开发言】，代表发言者个人观点，本人并未作修改。⭐&lt;/p&gt;
 &lt;p&gt;⭐2&lt;/p&gt;
@@ -442,13 +442,13 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/%E5%92%8C%E9%A3%8Eapi%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/%E5%92%8C%E9%A3%8Eapi%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
             <title>风天气api的使用</title>
-            <link>http://yoursite.com/child/before/%E5%92%8C%E9%A3%8Eapi%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
-            <category term="Java" scheme="http://yoursite.com/child/categories/Java/" />
-            <category term="教程" scheme="http://yoursite.com/child/categories/Java/%E6%95%99%E7%A8%8B/" />
-            <category term="杂谈" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88/" />
-            <category term="Java" scheme="http://yoursite.com/child/tags/Java/" />
+            <link>http://blog.murphyspolaris.icu/before/%E5%92%8C%E9%A3%8Eapi%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+            <category term="Java" scheme="http://blog.murphyspolaris.icu/categories/Java/" />
+            <category term="教程" scheme="http://blog.murphyspolaris.icu/categories/Java/%E6%95%99%E7%A8%8B/" />
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88/" />
+            <category term="Java" scheme="http://blog.murphyspolaris.icu/tags/Java/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;和风天气api的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#和风天气api的使用&#34;&gt;#&lt;/a&gt; 和风天气 api 的使用&lt;/h1&gt;
 &lt;p&gt;和风天气 api 的返回信息是经过压缩的，需要解压之后才能读取信息&lt;/p&gt;
@@ -666,13 +666,13 @@ public class City &amp;#123;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token import&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;lombok&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;AllArgsConstructor&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token import&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;lombok&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Data&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token import&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;lombok&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;NoArgsConstructor&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @author polaris&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@Data&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@AllArgsConstructor&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@NoArgsConstructor&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;WeatherWarining&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 当前数据的响应式页面，便于嵌入网站或应用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; fxLink&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 本条预警的唯一标识，可判断本条预警是否已经存在&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警发布单位，可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; sender&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警发布时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; pubTime&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警信息标题&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; title&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警开始时间，可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; startTime&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警结束时间，可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; endTime&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警信息的发布状态&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; status&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警严重等级&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; severity&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警严重等级颜色，可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; severityColor&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警类型 ID&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; type&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警类型名称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; typeName&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警信息的紧迫程度，可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; urgency&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警信息的确定性，可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; certainty&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 预警详细文字描述&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; text&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 与本条预警相关联的预警 ID，当预警状态为 cancel 或 update 时返回。可能为空&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; related&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/%E5%88%9D%E4%BB%A3QQ%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/%E5%88%9D%E4%BB%A3QQ%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
             <title>Alice酱初代QQ聊天机器人，对进击的Yes酱的亿点小扩展</title>
-            <link>http://yoursite.com/child/before/%E5%88%9D%E4%BB%A3QQ%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-            <category term="摆烂日记" scheme="http://yoursite.com/child/categories/%E6%91%86%E7%83%82%E6%97%A5%E8%AE%B0/" />
-            <category term="Python" scheme="http://yoursite.com/child/categories/%E6%91%86%E7%83%82%E6%97%A5%E8%AE%B0/Python/" />
-            <category term="杂谈" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88/" />
-            <category term="Java" scheme="http://yoursite.com/child/tags/Java/" />
+            <link>http://blog.murphyspolaris.icu/before/%E5%88%9D%E4%BB%A3QQ%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+            <category term="摆烂日记" scheme="http://blog.murphyspolaris.icu/categories/%E6%91%86%E7%83%82%E6%97%A5%E8%AE%B0/" />
+            <category term="Python" scheme="http://blog.murphyspolaris.icu/categories/%E6%91%86%E7%83%82%E6%97%A5%E8%AE%B0/Python/" />
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88/" />
+            <category term="Java" scheme="http://blog.murphyspolaris.icu/tags/Java/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;这只是一个功能简单的测试版，欢迎大家继续努力&lt;/p&gt;
@@ -1040,11 +1040,11 @@ massage_flide.cpython-37.pyc&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/%E9%83%A8%E7%BD%B2Rocket.Chat%20Server%E6%B5%81%E7%A8%8B/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/%E9%83%A8%E7%BD%B2Rocket.Chat%20Server%E6%B5%81%E7%A8%8B/</guid>
             <title>SVN安装部署使用</title>
-            <link>http://yoursite.com/child/before/%E9%83%A8%E7%BD%B2Rocket.Chat%20Server%E6%B5%81%E7%A8%8B/</link>
-            <category term="笔记" scheme="http://yoursite.com/child/categories/%E7%AC%94%E8%AE%B0/" />
-            <category term="杂谈,笔记" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-%E7%AC%94%E8%AE%B0/" />
+            <link>http://blog.murphyspolaris.icu/before/%E9%83%A8%E7%BD%B2Rocket.Chat%20Server%E6%B5%81%E7%A8%8B/</link>
+            <category term="笔记" scheme="http://blog.murphyspolaris.icu/categories/%E7%AC%94%E8%AE%B0/" />
+            <category term="杂谈,笔记" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88-%E7%AC%94%E8%AE%B0/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;Snap 安装有系统限制&lt;/p&gt;
@@ -1086,11 +1086,11 @@ massage_flide.cpython-37.pyc&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker-compose&lt;/span&gt; up &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; mongo&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker-compose&lt;/span&gt; up &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; mongo-init-replica&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker-compose&lt;/span&gt; up &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; rocketchat&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E8%84%9A%E6%9C%AC-%E5%AF%B9%E5%BB%BA%E6%B0%91%E4%B8%93%E7%94%A8/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E8%84%9A%E6%9C%AC-%E5%AF%B9%E5%BB%BA%E6%B0%91%E4%B8%93%E7%94%A8/</guid>
             <title>page title</title>
-            <link>http://yoursite.com/child/before/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E8%84%9A%E6%9C%AC-%E5%AF%B9%E5%BB%BA%E6%B0%91%E4%B8%93%E7%94%A8/</link>
-            <category term="杂谈" scheme="http://yoursite.com/child/categories/%E6%9D%82%E8%B0%88/" />
-            <category term="杂谈,Python" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-Python/" />
+            <link>http://blog.murphyspolaris.icu/before/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E8%84%9A%E6%9C%AC-%E5%AF%B9%E5%BB%BA%E6%B0%91%E4%B8%93%E7%94%A8/</link>
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/categories/%E6%9D%82%E8%B0%88/" />
+            <category term="杂谈,Python" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88-Python/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;别让建民看见&lt;/p&gt;
@@ -1137,11 +1137,11 @@ def getBlogId():
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/win%E7%B3%BB%E7%BB%9F%E7%BE%8E%E5%8C%96/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/win%E7%B3%BB%E7%BB%9F%E7%BE%8E%E5%8C%96/</guid>
             <title>win系统美化</title>
-            <link>http://yoursite.com/child/before/win%E7%B3%BB%E7%BB%9F%E7%BE%8E%E5%8C%96/</link>
-            <category term="杂谈" scheme="http://yoursite.com/child/categories/%E6%9D%82%E8%B0%88/" />
-            <category term="杂谈,教程" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-%E6%95%99%E7%A8%8B/" />
+            <link>http://blog.murphyspolaris.icu/before/win%E7%B3%BB%E7%BB%9F%E7%BE%8E%E5%8C%96/</link>
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/categories/%E6%9D%82%E8%B0%88/" />
+            <category term="杂谈,教程" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88-%E6%95%99%E7%A8%8B/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;windows系统美化用于win10-11&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows系统美化用于win10-11&#34;&gt;#&lt;/a&gt; Windows 系统美化 [用于 win10 &amp;amp; 11]&lt;/h1&gt;
 &lt;h3 id=&#34;首先是我的桌面效果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#首先是我的桌面效果&#34;&gt;#&lt;/a&gt; 首先是我的桌面效果&lt;/h3&gt;
@@ -1213,11 +1213,11 @@ def getBlogId():
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/SVN%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/SVN%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8/</guid>
             <title>SVN安装部署使用</title>
-            <link>http://yoursite.com/child/before/SVN%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8/</link>
-            <category term="杂谈" scheme="http://yoursite.com/child/categories/%E6%9D%82%E8%B0%88/" />
-            <category term="杂谈" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88/" />
+            <link>http://blog.murphyspolaris.icu/before/SVN%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8/</link>
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/categories/%E6%9D%82%E8%B0%88/" />
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;svn简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#svn简介&#34;&gt;#&lt;/a&gt; SVN 简介&lt;/h2&gt;
 &lt;p&gt;Subversion (SVN) 是一个开源的版本控制系統，也就是说 Subversion 管理着随时间改变的数据。 这些数据放置在一个中央资料档案库 (repository) 中。 这个档案库很像一个普通的文件服务器，不过它会记住每一次文件的变动。 这样你就可以把档案恢复到旧的版本，或是浏览文件的变动历史。&lt;/p&gt;
@@ -1268,11 +1268,11 @@ def getBlogId():
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/child/before/Java%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/</guid>
+            <guid isPermalink="true">http://blog.murphyspolaris.icu/before/Java%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/</guid>
             <title>Java学习建议</title>
-            <link>http://yoursite.com/child/before/Java%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/</link>
-            <category term="杂谈" scheme="http://yoursite.com/child/categories/%E6%9D%82%E8%B0%88/" />
-            <category term="杂谈,Java" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-Java/" />
+            <link>http://blog.murphyspolaris.icu/before/Java%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/</link>
+            <category term="杂谈" scheme="http://blog.murphyspolaris.icu/categories/%E6%9D%82%E8%B0%88/" />
+            <category term="杂谈,Java" scheme="http://blog.murphyspolaris.icu/tags/%E6%9D%82%E8%B0%88-Java/" />
             <pubDate>Thu, 24 Aug 2023 16:13:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;本内容仅是自己的一些感想&lt;/p&gt;
