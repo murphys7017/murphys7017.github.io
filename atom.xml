@@ -12,6 +12,24 @@
     <category term="博客" />
     <category term="日记" />
     <entry>
+        <id>http://yoursite.com/child/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE/</id>
+        <title>博客服务器端配置</title>
+        <link rel="alternate" href="http://yoursite.com/child/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE/"/>
+        <content type="html">&lt;h2 id=&#34;手机安装termux模拟linux环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#手机安装termux模拟linux环境&#34;&gt;#&lt;/a&gt; 手机安装 Termux 模拟 Linux 环境&lt;/h2&gt;
+&lt;p&gt;这里采用最简单的方法安装 F-Droid&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mLWRyb2lkLm9yZy9lbi9wYWNrYWdlcy9jb20udGVybXV4Lw==&#34;&gt;Termux | F-Droid - Free and Open Source Android App Repository&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;然后通过 F-Droid 安装 Termux，自动适配环境。&lt;/p&gt;
+&lt;h2 id=&#34;安装ssh&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装ssh&#34;&gt;#&lt;/a&gt; 安装 SSH&lt;/h2&gt;
+&lt;h2 id=&#34;配置所需环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置所需环境&#34;&gt;#&lt;/a&gt; 配置所需环境&lt;/h2&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1lpQllpSC9hcnRpY2xlL2RldGFpbHMvMTI3Mjc1MTc5&#34;&gt;termux 安装配置_termux 配置_易冰亦寒的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyNDcxNDIzL2FydGljbGUvZGV0YWlscy85MDU4Mjc5Mg==&#34;&gt;Termux 配置指南，你要的全都有_r0nny 的博客 - CSDN 博客&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="note" scheme="http://yoursite.com/child/categories/note/" />
+        <category term="杂谈,笔记" scheme="http://yoursite.com/child/tags/%E6%9D%82%E8%B0%88-%E7%AC%94%E8%AE%B0/" />
+        <updated>2023-08-27T15:43:00.000Z</updated>
+    </entry>
+    <entry>
         <id>http://yoursite.com/child/%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E7%9A%84/</id>
         <title>一个常见的管理系统是由那些部分构成的</title>
         <link rel="alternate" href="http://yoursite.com/child/%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%98%AF%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E7%9A%84/"/>
@@ -41,7 +59,6 @@
 &lt;h2 id=&#34;后台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后台&#34;&gt;#&lt;/a&gt; 后台&lt;/h2&gt;
 &lt;p&gt;系统架构设计包括各个模块之间的组织方式和交互方式&lt;/p&gt;
 &lt;p&gt;主要使用 Spring Boot 框架开发，Spring Boot 就可以理解为一个大型的包含的可能用的所有工具的一个工具箱，你可以快速的从里面拿出常见的你想用的功能。像接下来说的 mybatis、JPA、Spring MVC 等都包括在其中。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;../../../temp/Downloads/731956-20221120233527363-595399848.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;数据库查询-数据访问层&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据库查询-数据访问层&#34;&gt;#&lt;/a&gt; 数据库查询 （数据访问层）&lt;/h3&gt;
 &lt;p&gt;最初使用使用数据库查询的步骤都是连接数据库 -&amp;gt; 查询数据 -&amp;gt; 断开连接 这么一个反复重复的过程&lt;/p&gt;
 &lt;ol&gt;
